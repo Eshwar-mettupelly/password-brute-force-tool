@@ -15,6 +15,7 @@ requests: HTTP requests handling
 BeautifulSoup: HTML parsing and DOM navigation
 urljoin: URL resolution for form actions
 os: File system operations for wordlist handling
+
 Code Structure
 1. Configuration Constants
 USERNAME_FIELDS = ['username', 'email', ...]
@@ -93,6 +94,7 @@ Debugging Tips
 # Uncomment these below lines in code for debugging:
 # print(f"\nResponse Status Code: {response.status_code}")
 # print(f"Response Text: {response.text}")
+
 Conclusion
 This tool demonstrates basic brute-force attack principles while highlighting important security concepts. It serves as an educational resource for understanding:
 
